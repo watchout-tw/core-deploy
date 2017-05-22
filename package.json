@@ -2,7 +2,7 @@
   "name": "core_deploy",
   "version": "1.0.0",
   "description": "Auto deploy dev branch for watchout core",
-  "main": "index.js",
+  "main": "deploy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
