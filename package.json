@@ -12,6 +12,7 @@
   "author": "Charlieeeee",
   "license": "ISC",
   "dependencies": {
+    "cron": "^1.2.1",
     "node-datetime": "^1.0.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
