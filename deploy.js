@@ -40,6 +40,8 @@ function run () {
     log.push('[STEP 1/3][SUCCESSED] Git Pull',res);
 
 
+    res = shell.exec('npm install').stdout;
+
     /*  STEP 2 / 3
     *  core server restart
     */
@@ -50,9 +52,8 @@ function run () {
      *  core server restart
      */
     var options = {
+      method: 'GET',
       uri: config.test_url,
-      qs: {
-      },
       json: true // Automatically parses the JSON string in the response
     };
 
